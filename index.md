@@ -63,17 +63,7 @@ Investing in document automation isn’t just a smart choice—it’s a transfor
 Connect with us today to discover how Martschink Group can support your journey toward efficiency and growth.
 
 <div style="text-align: center; background-color: #f5f5f5; padding: 20px;">
-    <form action="/submit" method="POST">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" style="width: 80%; margin: 10px 0;"><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" style="width: 80%; margin: 10px 0;"><br>
-        <label for="subject">Subject:</label><br>
-        <input type="text" id="subject" name="subject" style="width: 80%; margin: 10px 0;"><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="5" style="width: 80%; margin: 10px 0;"></textarea><br>
-        <button type="submit" style="background-color: #007BFF; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Submit</button>
-    </form>
+ <script src="https://www.cognitoforms.com/f/seamless.js" data-key="EzyArbEzjkGp5NONQHMdXA" data-form="8"></script>
 </div>
 
 ---
