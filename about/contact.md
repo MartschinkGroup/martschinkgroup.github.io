@@ -1,10 +1,3 @@
-
-
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
 # Example headings
 
 ## Sample Section
@@ -29,5 +22,3 @@ Link to the helpful section: [Link Text](#thisll--be-a-helpful-section-about-the
 Link to the first non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file).
 
 Link to the second non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file-1).
-</body>
-</html>
