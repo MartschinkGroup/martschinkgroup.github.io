@@ -1,53 +1,90 @@
 ---
-title: Martschink Group
+title: Home
 ---
+
+<div style="text-align: center; background-color: #007BFF; padding: 10px;">
+    <a href="#home" style="color: white; margin: 10px; text-decoration: none; font-weight: bold;">Home</a>
+    <a href="#about-us" style="color: white; margin: 10px; text-decoration: none; font-weight: bold;">About Us</a>
+    <a href="#what-we-do" style="color: white; margin: 10px; text-decoration: none; font-weight: bold;">What We Do</a>
+    <a href="#document-automation" style="color: white; margin: 10px; text-decoration: none; font-weight: bold;">Automation</a>
+    <a href="#contact-us" style="color: white; margin: 10px; text-decoration: none; font-weight: bold;">Contact</a>
+</div>
+
+---
+
+# ![Martschink Group Logo](https://via.placeholder.com/200x50?text=Martschink+Group)
+
+---
+
+# Welcome to Martschink Group
+
+*Revolutionizing operations and igniting innovation for sustained growth.*
+
+At **Martschink Group**, we specialize in refining processes and embracing innovative solutions that empower your business to excel. From automation to strategic planning, we partner with you to achieve measurable results and unlock new possibilities.
+
+---
+
+## <a id="about-us"></a> About Us
+
+Martschink Group is driven by:
+
+- **Strategic innovation and forward-thinking leadership**, propelling your success in a dynamic marketplace.
+- **Unleashing creativity and fostering growth** through actionable insights that challenge the norm and redefine industries.
+- **Custom-tailored solutions** that bridge the divide between challenges and opportunities, ensuring impactful and sustainable growth.
+
+We focus on reducing time spent on repetitive tasks—like billing, client communication, and document management—so you can dedicate your energy to what matters most: delivering exceptional value to your clients.
+
+---
+
+## <a id="what-we-do"></a> What We Do
+
+### How We Make It Happen
+
+- **Workflow Automation**: Eliminate repetitive administrative tasks using smart tools and custom-built solutions.
+- **App Connectivity**: Seamlessly integrate your favorite platforms to ensure data flows efficiently across all your tools.
+- **Optimization of Current Systems**: Maximize the potential of tools like Clio and Zoho through advanced customization and automation.
+
+With us as your tech and operations partner, you’ll stay ahead of emerging trends while transforming inefficiencies into opportunities.
+
+---
+
+## <a id="document-automation"></a> Document Automation Benefits
+
+- **Boost Efficiency**: Simplify your workflows, save valuable time, and reduce errors with intelligent document automation.
+- **Tailored to You**: Create templates that match your unique needs, seamlessly integrated with your systems.
+- **Minimized Risks**: Avoid costly mistakes with standardized templates and error-proof workflows.
+
+Investing in document automation isn’t just a smart choice—it’s a transformative step toward a more productive and profitable future.
+
+---
+
+## <a id="contact-us"></a> Contact Us
+
+Connect with us today to discover how Martschink Group can support your journey toward efficiency and growth.
 
 <div style="text-align: center; background-color: #f5f5f5; padding: 20px;">
-    <img src="https://via.placeholder.com/200x50?text=Martschink+Group" alt="Martschink Group Logo">
-    <p style="font-size: 1.2em; color: #666;">Innovative solutions to help your business thrive.</p>
-    <a href="#services" style="display: inline-block; margin: 10px; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Our Services</a>
-    <a href="#contact" style="display: inline-block; margin: 10px; padding: 10px 20px; background-color: #28A745; color: white; text-decoration: none; border-radius: 5px;">Contact Us</a>
+    <form action="/submit" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" style="width: 80%; margin: 10px 0;"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" style="width: 80%; margin: 10px 0;"><br>
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" style="width: 80%; margin: 10px 0;"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" style="width: 80%; margin: 10px 0;"></textarea><br>
+        <button type="submit" style="background-color: #007BFF; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Submit</button>
+    </form>
 </div>
 
 ---
 
-<div id="services" style="padding: 20px; background-color: #fff;">
-    <h2 style="text-align: center; font-family: Arial, sans-serif; color: #333;">Our Services</h2>
-    <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-        <div style="flex: 1; max-width: 300px; text-align: center; padding: 10px;">
-            <img src="https://via.placeholder.com/300x200?text=Business+Strategy" alt="Business Strategy" style="border-radius: 10px;">
-            <h3>Business Strategy</h3>
-            <p>Crafting actionable strategies to achieve your business goals.</p>
-        </div>
-        <div style="flex: 1; max-width: 300px; text-align: center; padding: 10px;">
-            <img src="https://via.placeholder.com/300x200?text=Technology+Solutions" alt="Technology Solutions" style="border-radius: 10px;">
-            <h3>Technology Solutions</h3>
-            <p>Empowering your business with cutting-edge technology.</p>
-        </div>
-        <div style="flex: 1; max-width: 300px; text-align: center; padding: 10px;">
-            <img src="https://via.placeholder.com/300x200?text=Operational+Excellence" alt="Operational Excellence" style="border-radius: 10px;">
-            <h3>Operational Excellence</h3>
-            <p>Optimizing processes to improve efficiency and reduce costs.</p>
-        </div>
-    </div>
-</div>
+## Footer
 
----
-
-<div id="about" style="padding: 50px; background-color: #f5f5f5;">
-    <h2 style="text-align: center; font-family: Arial, sans-serif; color: #333;">About Us</h2>
-    <p style="text-align: center; font-size: 1.1em; max-width: 800px; margin: auto; color: #666;">
-        We are committed to delivering excellence. Our team of experienced consultants has helped businesses of all sizes overcome challenges and achieve their goals. Let us help you take your business to the next level.
+<div style="text-align: center; padding: 20px;">
+    <p>&copy; 2024 Martschink Group. All Rights Reserved.</p>
+    <p>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a> | 
+        <a href="https://twitter.com" target="_blank">Twitter</a> | 
+        <a href="https://facebook.com" target="_blank">Facebook</a>
     </p>
-</div>
-
----
-
-<div id="contact" style="padding: 50px; background-color: #007BFF; color: white;">
-    <h2 style="text-align: center; font-family: Arial, sans-serif;">Contact Us</h2>
-    <div style="text-align: center;">
-        <p><strong>Location:</strong> 123 Innovation Drive, Tech City, TX 75001</p>
-        <p><strong>Email:</strong> <a href="mailto:contact@acmeconsulting.com" style="color: white; text-decoration: underline;">contact@acmeconsulting.com</a></p>
-        <p><strong>📞 Phone:</strong> (555) 123-4567</p>
-    </div>
 </div>
