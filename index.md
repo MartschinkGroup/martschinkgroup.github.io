@@ -2,60 +2,53 @@
 title: Home
 ---
 
-# ![Acme Consulting Logo](https://via.placeholder.com/200x50?text=Acme+Consulting)
+<div style="text-align: center; background-color: #f5f5f5; padding: 20px;">
+    <img src="https://via.placeholder.com/200x50?text=Acme+Consulting" alt="Acme Consulting Logo">
+    <h1 style="font-family: Arial, sans-serif; color: #333;">Welcome to Acme Consulting</h1>
+    <p style="font-size: 1.2em; color: #666;">We provide innovative solutions to help your business thrive.</p>
+    <a href="#services" style="display: inline-block; margin: 10px; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Our Services</a>
+    <a href="#contact" style="display: inline-block; margin: 10px; padding: 10px 20px; background-color: #28A745; color: white; text-decoration: none; border-radius: 5px;">Contact Us</a>
+</div>
 
 ---
 
-# Welcome to Martschink Group
-
-At **Martschink Group**, we provide innovative solutions to help your business thrive. With expertise in strategy, operations, and technology, we deliver results that matter.
-
----
-
-## Our Services
-
-![Business Strategy](https://via.placeholder.com/300x200?text=Business+Strategy)  
-**Business Strategy**  
-Crafting actionable strategies to achieve your business goals.
-
-![Technology Solutions](https://via.placeholder.com/300x200?text=Technology+Solutions)  
-**Technology Solutions**  
-Empowering your business with cutting-edge technology.
-
-![Operational Excellence](https://via.placeholder.com/300x200?text=Operational+Excellence)  
-**Operational Excellence**  
-Optimizing processes to improve efficiency and reduce costs.
-
----
-
-## Why Choose Us?
-
-- 🌟 Over 10 years of industry experience.
-- 🎯 Tailored solutions to fit your unique needs.
-- 🤝 Dedicated experts who care about your success.
+<div id="services" style="padding: 50px; background-color: #fff;">
+    <h2 style="text-align: center; font-family: Arial, sans-serif; color: #333;">Our Services</h2>
+    <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+        <div style="flex: 1; max-width: 300px; text-align: center; padding: 10px;">
+            <img src="https://via.placeholder.com/300x200?text=Business+Strategy" alt="Business Strategy" style="border-radius: 10px;">
+            <h3>Business Strategy</h3>
+            <p>Crafting actionable strategies to achieve your business goals.</p>
+        </div>
+        <div style="flex: 1; max-width: 300px; text-align: center; padding: 10px;">
+            <img src="https://via.placeholder.com/300x200?text=Technology+Solutions" alt="Technology Solutions" style="border-radius: 10px;">
+            <h3>Technology Solutions</h3>
+            <p>Empowering your business with cutting-edge technology.</p>
+        </div>
+        <div style="flex: 1; max-width: 300px; text-align: center; padding: 10px;">
+            <img src="https://via.placeholder.com/300x200?text=Operational+Excellence" alt="Operational Excellence" style="border-radius: 10px;">
+            <h3>Operational Excellence</h3>
+            <p>Optimizing processes to improve efficiency and reduce costs.</p>
+        </div>
+    </div>
+</div>
 
 ---
 
-## Contact Us
-
-📍 **Location**  
-123 Innovation Drive  
-Tech City, TX 75001  
-
-📧 **Email**: [contact@acmeconsulting.com](mailto:contact@acmeconsulting.com)  
-📞 **Phone**: (555) 123-4567  
+<div id="about" style="padding: 50px; background-color: #f5f5f5;">
+    <h2 style="text-align: center; font-family: Arial, sans-serif; color: #333;">About Us</h2>
+    <p style="text-align: center; font-size: 1.1em; max-width: 800px; margin: auto; color: #666;">
+        Acme Consulting is committed to delivering excellence. Our team of experienced consultants has helped businesses of all sizes overcome challenges and achieve their goals. Let us help you take your business to the next level.
+    </p>
+</div>
 
 ---
 
-## About Us
-
-![Teamwork](https://via.placeholder.com/600x300?text=Our+Team)  
-Martschink Group is committed to delivering excellence. Our team of experienced consultants has helped businesses of all sizes overcome challenges and achieve their goals. Let us help you take your business to the next level.
-
----
-
-## Follow Us
-
-[![LinkedIn](https://via.placeholder.com/50x50?text=LinkedIn)](https://linkedin.com)  
-[![Twitter](https://via.placeholder.com/50x50?text=Twitter)](https://twitter.com)  
-[![Facebook](https://via.placeholder.com/50x50?text=Facebook)](https://facebook.com)
+<div id="contact" style="padding: 50px; background-color: #007BFF; color: white;">
+    <h2 style="text-align: center; font-family: Arial, sans-serif;">Contact Us</h2>
+    <div style="text-align: center;">
+        <p><strong>📍 Location:</strong> 123 Innovation Drive, Tech City, TX 75001</p>
+        <p><strong>📧 Email:</strong> <a href="mailto:contact@acmeconsulting.com" style="color: white; text-decoration: underline;">contact@acmeconsulting.com</a></p>
+        <p><strong>📞 Phone:</strong> (555) 123-4567</p>
+    </div>
+</div>
