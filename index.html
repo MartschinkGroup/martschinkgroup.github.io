@@ -6,69 +6,17 @@
     <title>Martschink Group</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+
 </head>
 <body>
     <header class="header">
-        <nav class="navbar">
-            <div class="container">
-                <a href="#home" class="logo">Martschink Group</a>
-                <div class="nav-links">
-                    <a href="#about-us">About Us</a>
-                    <a href="#what-we-do">What We Do</a>
-                    <a href="#document-automation">Automation</a>
-                    <a href="#contact-us">Contact</a>
-                </div>
-            </div>
-        </nav>
-        <div class="hero">
-            <div class="container">
-                <h1>Welcome to Martschink Group</h1>
-                <p>Revolutionizing operations and igniting innovation for sustained growth.</p>
-                <a href="#about-us" class="cta">Learn More</a>
-            </div>
+        <div class="container hero">
+            <h1>The Martschink Group</h1>
+            <p id="slogan">Revolutionizing operations and igniting innovation for sustained growth.</p>
+            <a href="#about-us" class="cta" onclick="changeSlogan()">Learn More</a>
         </div>
     </header>
-
-    <section id="about-us" class="section">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>Martschink Group specializes in refining processes and embracing innovative solutions that empower your business to excel.</p>
-        </div>
-    </section>
-
-    <section id="what-we-do" class="section">
-        <div class="container">
-            <h2>What We Do</h2>
-            <ul>
-                <li><strong>Workflow Automation:</strong> Eliminate repetitive tasks using smart tools and custom solutions.</li>
-                <li><strong>App Connectivity:</strong> Seamlessly integrate your favorite platforms.</li>
-                <li><strong>System Optimization:</strong> Maximize the potential of tools like Clio and Zoho through advanced customization.</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="document-automation" class="section">
-        <div class="container">
-            <h2>Document Automation Benefits</h2>
-            <ul>
-                <li>Boost efficiency and save valuable time.</li>
-                <li>Tailored templates integrated with your systems.</li>
-                <li>Minimize risks with error-proof workflows.</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="contact-us" class="section">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <form class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
 
     <footer class="footer">
         <div class="container">
@@ -80,5 +28,9 @@
             </p>
         </div>
     </footer>
+
+
+</body>
+</html>
 </body>
 </html>
