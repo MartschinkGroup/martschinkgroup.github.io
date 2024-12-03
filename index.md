@@ -2,12 +2,12 @@
 title: Home
 ---
 
-<div style="text-align: center; background-color: #007BFF; padding: 10px;">
-    <a href="#home" style="color: white; margin: 10px; text-decoration: none; font-weight: bold;">Home</a>
-    <a href="#about-us" style="color: white; margin: 10px; text-decoration: none; font-weight: bold;">About Us</a>
-    <a href="#what-we-do" style="color: white; margin: 10px; text-decoration: none; font-weight: bold;">What We Do</a>
-    <a href="#document-automation" style="color: white; margin: 10px; text-decoration: none; font-weight: bold;">Automation</a>
-    <a href="#contact-us" style="color: white; margin: 10px; text-decoration: none; font-weight: bold;">Contact</a>
+<div style="text-align: center; background-color: #007BFF; padding: 20px;">
+    <a href="#home" style="color: white; margin: 15px; text-decoration: none; font-weight: bold;">Home</a>
+    <a href="#about-us" style="color: white; margin: 15px; text-decoration: none; font-weight: bold;">About Us</a>
+    <a href="#what-we-do" style="color: white; margin: 15px; text-decoration: none; font-weight: bold;">What We Do</a>
+    <a href="#document-automation" style="color: white; margin: 15px; text-decoration: none; font-weight: bold;">Automation</a>
+    <a href="#contact-us" style="color: white; margin: 15px; text-decoration: none; font-weight: bold;">Contact</a>
 </div>
 
 ---
@@ -18,7 +18,7 @@ title: Home
 
 # Welcome to Martschink Group
 
-*Revolutionizing operations and igniting innovation for sustained growth.*
+**Revolutionizing operations and igniting innovation for sustained growth.**
 
 At **Martschink Group**, we specialize in refining processes and embracing innovative solutions that empower your business to excel. From automation to strategic planning, we partner with you to achieve measurable results and unlock new possibilities.
 
@@ -34,6 +34,10 @@ Martschink Group is driven by:
 
 We focus on reducing time spent on repetitive tasks—like billing, client communication, and document management—so you can dedicate your energy to what matters most: delivering exceptional value to your clients.
 
+<div style="text-align: center;">
+    <img src="https://via.placeholder.com/800x400?text=About+Us" alt="About Us" style="width: 80%; border-radius: 10px; margin-top: 20px;">
+</div>
+
 ---
 
 ## <a id="what-we-do"></a> What We Do
@@ -44,7 +48,9 @@ We focus on reducing time spent on repetitive tasks—like billing, client commu
 - **App Connectivity**: Seamlessly integrate your favorite platforms to ensure data flows efficiently across all your tools.
 - **Optimization of Current Systems**: Maximize the potential of tools like Clio and Zoho through advanced customization and automation.
 
-With us as your tech and operations partner, you’ll stay ahead of emerging trends while transforming inefficiencies into opportunities.
+<div style="text-align: center;">
+    <img src="https://via.placeholder.com/800x400?text=What+We+Do" alt="What We Do" style="width: 80%; border-radius: 10px; margin-top: 20px;">
+</div>
 
 ---
 
@@ -54,7 +60,9 @@ With us as your tech and operations partner, you’ll stay ahead of emerging tre
 - **Tailored to You**: Create templates that match your unique needs, seamlessly integrated with your systems.
 - **Minimized Risks**: Avoid costly mistakes with standardized templates and error-proof workflows.
 
-Investing in document automation isn’t just a smart choice—it’s a transformative step toward a more productive and profitable future.
+<div style="text-align: center;">
+    <img src="https://via.placeholder.com/800x400?text=Document+Automation" alt="Document Automation" style="width: 80%; border-radius: 10px; margin-top: 20px;">
+</div>
 
 ---
 
@@ -62,7 +70,7 @@ Investing in document automation isn’t just a smart choice—it’s a transfor
 
 Connect with us today to discover how Martschink Group can support your journey toward efficiency and growth.
 
-<div style="text-align: center; background-color: #f5f5f5; padding: 20px;">
+<div style="text-align: center; background-color: #f5f5f5; padding: 20px; border-radius: 10px;">
  <script src="https://www.cognitoforms.com/f/seamless.js" data-key="EzyArbEzjkGp5NONQHMdXA" data-form="8"></script>
 </div>
 
@@ -70,11 +78,11 @@ Connect with us today to discover how Martschink Group can support your journey 
 
 ## Footer
 
-<div style="text-align: center; padding: 20px;">
+<div style="text-align: center; padding: 20px; background-color: #333; color: white;">
     <p>&copy; 2024 Martschink Group. All Rights Reserved.</p>
     <p>
-        <a href="https://linkedin.com" target="_blank">LinkedIn</a> | 
-        <a href="https://twitter.com" target="_blank">Twitter</a> | 
-        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://linkedin.com" target="_blank" style="color: white; text-decoration: none; margin: 10px;">LinkedIn</a> | 
+        <a href="https://twitter.com" target="_blank" style="color: white; text-decoration: none; margin: 10px;">Twitter</a> | 
+        <a href="https://facebook.com" target="_blank" style="color: white; text-decoration: none; margin: 10px;">Facebook</a>
     </p>
 </div>
