@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Martschink Group</title>
+  <meta name="description" content="Dedicated legal representation for clients in South Carolina and Washington, D.C. Specializing in personal injury, business law, civil litigation, and more.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     :root {
       --primary: #003366;
@@ -19,22 +24,35 @@
     }
 
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Lato', sans-serif;
       background: var(--light-bg);
       color: var(--text);
       line-height: 1.6;
     }
 
+    h1, h2, h3 {
+      font-family: 'Montserrat', sans-serif;
+    }
+
     header {
       background: var(--primary);
       color: white;
-      padding: 2rem 1rem;
+      padding: 1rem 1.5rem;
       text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
     header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
+      font-size: 1.8rem;
+    }
+
+    nav {
+      font-size: 1rem;
     }
 
     nav a {
@@ -45,7 +63,6 @@
     }
 
     nav a:hover {
-      text-decoration: underline;
       color: var(--accent);
     }
 
@@ -57,14 +74,36 @@
 
     .hero {
       text-align: center;
-      background: linear-gradient(to right, #003366, #004080);
       color: white;
-      padding: 4rem 2rem;
+      padding: 6rem 2rem;
+      /* Ensure you have an 'images' folder with 'banner.jpg' inside */
+      background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), url('banner.jpg') no-repeat center 60%/cover;
+}
     }
 
     .hero h1 {
-      font-size: 2.8rem;
+      font-size: 3rem;
       margin-bottom: 0.5rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .cta-button {
+      background-color: var(--accent);
+      color: var(--primary);
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      padding: 0.8rem 2rem;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #e6c200;
     }
 
     .section-title {
@@ -76,26 +115,45 @@
       padding-bottom: 0.25rem;
     }
 
-    ul.practice-list {
-      list-style: none;
-      padding-left: 0;
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        float: left;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+        border: 3px solid var(--accent);
     }
 
-    ul.practice-list li {
-      padding-left: 1.2rem;
-      margin-bottom: 0.6rem;
-      position: relative;
+    .practice-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
     }
 
-    ul.practice-list li::before {
-      content: '▸';
-      color: var(--accent);
-      position: absolute;
-      left: 0;
+    .practice-area {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
-    a {
+    .practice-area h3 {
       color: var(--primary);
+      margin-bottom: 0.5rem;
+      font-size: 1.4rem;
+    }
+
+    .practice-area h3 i {
+      margin-right: 0.75rem;
+      color: var(--accent);
+    }
+
+    .practice-area:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
     }
 
     footer {
@@ -106,27 +164,95 @@
       padding: 1rem;
       margin-top: 2rem;
     }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+      }
+      nav {
+        margin-top: 1rem;
+      }
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+      .practice-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .practice-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>The Martschink Group</h1>
     <nav>
+      <a href="#about">About</a>
       <a href="#practice">Practice Areas</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
+  <section class="hero">
+    <h1>Dedicated Legal Representation</h1>
+    <p>Serving South Carolina & Washington, D.C. with focus and integrity.</p>
+    <a href="#contact" class="cta-button">Schedule a Consultation</a>
+  </section>
+
+  <section id="about" class="container">
+    <h2 class="section-title">About Gustave "Tree" Martschink</h2>
+    <img src="tree_wooden_bowtie.jpg" alt="Gustave 'Tree' Martschink" class="profile-pic">
+    <p>Gustave "Tree" Martschink is a dedicated attorney serving clients in South Carolina and Washington, D.C. with a focus on integrity and results. He founded The Martschink Group with the mission to provide accessible, strategic legal counsel to individuals, businesses, and nonprofits. His practice is built on a commitment to clear communication and a deep understanding of each client's unique needs, ensuring every case is handled with the personal attention it deserves.</p>
+  </section>
+
   <section id="practice" class="container">
     <h2 class="section-title">Practice Areas</h2>
-    <ul class="practice-list">
-      <li>Civil Litigation</li>
-      <li>Eviction and Housing Advocacy</li>
-      <li>Consumer Protection</li>
-      <li>Collections and Predatory Lending</li>
-      <li>Nonprofit Governance</li>
-      <li>Expungements</li>
-    </ul>
+    <div class="practice-grid">
+      <div class="practice-area">
+        <h3><i class="fas fa-gavel"></i> Personal Injury</h3>
+        <p>If you’ve been hurt because of someone else’s negligence, you deserve accountability—and compensation. Tree Martschink fights for victims in personal injury matters including car accidents, slip and fall injuries, and wrongful death claims. My goal is simple: to help you recover physically, emotionally, and financially.</p>
+      </div>
+
+      <div class="practice-area">
+        <h3><i class="fas fa-briefcase"></i> Business Law</h3>
+        <p>Whether you’re launching a startup or managing a growing enterprise, you need reliable legal guidance at every stage. I help businesses form the right legal structure, negotiate and draft contracts, and navigate complex regulatory and transactional matters—so you can focus on growth.</p>
+      </div>
+
+      <div class="practice-area">
+        <h3><i class="fas fa-shield-alt"></i> Consumer Protection</h3>
+        <p>Consumers have the right to fair treatment. If you’ve been targeted by deceptive practices, faulty products, or abusive debt collection, I’ll help you stand your ground and pursue a resolution that holds wrongdoers accountable.</p>
+      </div>
+
+      <div class="practice-area">
+        <h3><i class="fas fa-hand-holding-heart"></i> Nonprofit Governance</h3>
+        <p>I work with nonprofit organizations to build strong legal foundations, obtain tax-exempt status, and maintain compliance with state and federal requirements. Whether you're forming a new nonprofit or updating your bylaws, I help you stay mission-focused and legally sound.</p>
+      </div>
+
+      <div class="practice-area">
+        <h3><i class="fas fa-file-invoice"></i> Freedom of Information (FOIA) & Open Government</h3>
+        <p>Public records laws are a powerful tool for accountability—but navigating them isn’t always easy. I help individuals, journalists, and advocacy organizations file FOIA requests, challenge improper denials, and promote transparency in government operations.</p>
+      </div>
+
+      <div class="practice-area">
+        <h3><i class="fas fa-balance-scale"></i> Civil Litigation</h3>
+        <p>When disputes can’t be resolved through negotiation, I provide skilled representation in court. I handle civil matters including breach of contract, property disputes, and other conflicts—advocating for fair outcomes whether you’re bringing a claim or defending one.</p>
+      </div>
+
+      <div class="practice-area">
+        <h3><i class="fas fa-home"></i> Landlord–Tenant Law</h3>
+        <p>Tenants often face difficult legal terrain when it comes to leases, evictions, and property conditions. I advocate for renters in disputes over unsafe housing, withheld security deposits, and improper lease enforcement—ensuring your rights are protected every step of the way.</p>
+      </div>
+
+      <div class="practice-area">
+        <h3><i class="fas fa-scroll"></i> Litigation & Trial Support</h3>
+        <p>Strong cases are built long before trial begins. I assist trial counsel with legal research, motion practice, strategic planning, and record preservation. Whether you're preparing for a complex trial or anticipating an appeal, Tree Martschink provides the behind-the-scenes support that helps your arguments hold up in court—and beyond.</p>
+      </div>
+    </div>
   </section>
 
   <section id="contact" class="container">
@@ -137,7 +263,7 @@
   </section>
 
   <footer>
-
+    <p>&copy; 2025 Gustave "Tree" Martschink. All rights reserved.</p>
   </footer>
 </body>
 </html>
